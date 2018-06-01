@@ -1,0 +1,102 @@
+body { font-family: Arial, Verdana, sans-serif;
+	background-color: #5A7049; 
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to bottom, #FFFFFF, #5A7049); 
+}
+
+header {background-color: #A9A9A9;
+	border-radius: 15px;
+	background-image: url(assets/archeryheader3.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+header a {text-decoration: none;
+}
+
+nav {
+	font-weight: bold;
+	text-align: center;
+	background-color: #948a35;
+	padding: 12px;
+	font-size: 1.33em;
+	word-spacing: 5px;
+}
+
+nav a {text-decoration: none;
+}
+
+a:visited { color: #332418;
+}
+
+main { padding: 15px;
+}
+
+h1 {text-align: center;
+	color: #332418;
+	padding: 5px;
+	font-size: 3em;
+	border: 1px solid #000000;
+     	border-radius: 15px;
+	text-shadow: 2px 2px 2px #666;
+}
+
+h2 {color: #000033; 
+	font-family: arial, sans-serif;
+	text-shadow: 1px 1px 0 #ccc;
+}
+
+footer { font-size: .91em;
+        font-style: italic;
+	text-align: center;
+	background-color: #948a35;
+	padding: 10px;
+}
+
+#container { margin: auto;
+	padding: 20px;
+	width: 65%;
+	margin-top: 0%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d2e3c7;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 4px #062F4F;
+}
+
+table {
+	margin: auto;
+	border: 3px solid #73AD21;
+}
+
+td, th { border: 1px solid #948a35; 
+	padding: 5px;
+	font-family: Arial, sans-serif;
+	border-spacing: 0;
+}
+
+.header {
+	text-align: center;
+}
+
+.right {
+    float: right;
+    border: 2px solid #73AD21;
+    padding: 4px;
+}
+
+.left {
+    float: left;
+    border: 2px solid #73AD21;
+    padding: 4px;
+}
+
+.center {
+	margin: auto;
+	width: 70%;
+	display: block;
+    	padding: 4px;
+    	border: 2px solid #73AD21;
+    	text-align: center;
+}
